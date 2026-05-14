@@ -47,6 +47,34 @@ This document serves as a living brainstorm for the specialized automation capab
 - **Goal**: Instant calculation from visual data.
 - **Action**: Detect equations or data tables -> Provide solutions or summaries in an overlay.
 
+### 🖼️ Smart Gallery Search
+- **Goal**: Find specific photos using natural language descriptions.
+- **Action**: "Find the photo of me in a blue dress and red hat" -> BitDroid scans the local image index and presents the best match.
+- **Optimization Strategy**: Use background vector indexing (CLIP) during idle/charging states to ensure instant, low-CPU search results.
+
+## ⚙️ Technical Feasibility (for Low-End Devices)
+| Metric | Estimate | Impact on G04 |
+| :--- | :--- | :--- |
+| **Index Storage** | ~2 MB / 1k photos | Negligible |
+| **Scan Memory** | ~400 MB | Safe (Low Priority) |
+| **Search Speed** | < 0.01 sec | Instant |
+
+### 📈 Personalized 30-Day Level-Up Architect
+- **Goal**: Optimize user lifestyle and productivity based on real device usage data.
+- **Action**: 
+    1. Analyze Screen Time/Digital Wellbeing data to identify time-sinks.
+    2. Conduct an interactive "onboarding" via reasoning to understand user goals, profession, and energy levels.
+    3. Generate a tailored 30-day optimization schedule and "manifestation" plan.
+- **Integration (MCP)**: Leverage Model Context Protocol to automatically push the generated plan to external apps like **Notion**, **Google Calendar**, or **Google Tasks**.
+
+## ⚙️ Technical Feasibility (for Low-End Devices)
+| Metric | Estimate | Impact on G04 |
+| :--- | :--- | :--- |
+| **Index Storage** | ~2 MB / 1k photos | Negligible |
+| **Scan Memory** | ~400 MB | Safe (Low Priority) |
+| **Search Speed** | < 0.01 sec | Instant |
+| **Reasoning Latency** | 2-5 sec (BitNet) | Acceptable for planning |
+
 ## 💡 Future Brainstorming
 - [ ] Intent-based app opening ("I want to buy [X]" -> Opens Amazon/eBay search).
 - [ ] Automated "Daily Briefing" pulled from across different apps.
