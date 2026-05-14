@@ -1,0 +1,9 @@
+# Ignore research repositories
+research/repos/
+*.gguf
+*.bin
+node_modules/
+dist/
+build/
+.env
+.DS_Store
