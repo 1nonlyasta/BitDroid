@@ -1,9 +1,9 @@
-# Mobile Native AI Automation Agent
+# 🤖 BitDroid
 
-An experimental AI systems project focused on Android mobile automation using lightweight, local language models (BitNet).
+**An elite Android automation framework leveraging localized 1-bit LLM reasoning for high-efficiency, offline mobile workflow orchestration.**
 
 ## Project Goal
-To build a specialized mobile automation intelligence system capable of understanding Android UI states, planning actions, and executing workflows reliably—all while running efficiently on edge hardware.
+To build a specialized mobile automation intelligence system capable of understanding Android UI states, planning actions, and executing workflows reliably—all while running efficiently on edge hardware using optimized 1.58-bit (BitNet) language models.
 
 ## Current Phase: Research & Architectural Foundation
 We are currently in the initial setup phase. This repository contains the architectural blueprints, research notes, and reference technologies required to build the foundation.
