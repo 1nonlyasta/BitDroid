@@ -67,6 +67,13 @@ This document serves as a living brainstorm for the specialized automation capab
     3. Generate a tailored 30-day optimization schedule and "manifestation" plan.
 - **Integration (MCP)**: Leverage Model Context Protocol to automatically push the generated plan to external apps like **Notion**, **Google Calendar**, or **Google Tasks**.
 
+### 🎓 Adaptive AI Study Partner
+- **Goal**: Provide high-efficiency, personalized learning support for difficult subjects (e.g., Engineering Graphics, Mathematics).
+- **Action**: 
+    1. **Diagnostic Dialogue**: BitDroid asks clarifying questions to pinpoint specific struggle areas.
+    2. **Technique Injection**: Recommends elite study methods (e.g., Gaokao topper methods, Feynman Technique, Active Recall).
+    3. **Cognitive Sprints**: Breaks down long study blocks into manageable "Deep Work" sprints with planned "Dopamine Resets" based on user attention patterns.
+
 ## ⚙️ Technical Feasibility (for Low-End Devices)
 | Metric | Estimate | Impact on G04 |
 | :--- | :--- | :--- |
